@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+.item-image {
+    width: 70%;
+}
+
+@media only screen and (max-width: 600px) {
+  .item-image {
+    width: 100%;
+  }
+}
+
+.center-it {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-desc {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.d {
+    padding: 50px;
+    font-family: "Noto Sans KR";
+    text-align: center;
+    margin: 0;
+}
